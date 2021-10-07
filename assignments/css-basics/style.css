@@ -1,10 +1,64 @@
 header{
-color: rgb(255, 255, 255)
+color: rgb(255, 255, 255);
+background:rgb(38, 52, 116);
+padding: 1rem;
+}
+audio{
+    background:rgb(38, 52, 116);
 
 }
 body 
-{background-color: rgb(37, 43, 99);
+{background-color: rgb(5, 8, 34);
     text-align: center;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+margin: 0 auto;
+max-width: 50rem;
+
+}
+nav a {
+
+margin: 1rem;
+color: rgb(255, 255, 255);
+font-weight: 500;
+line-height: 2em;
 }
 
-    
+nav a:hover {
+
+
+    color: coral;
+}
+
+section{
+    color:rgb(255, 255, 255);
+    background: rgb(60, 74, 136);
+    margin: 2rem 0;
+    border-left: .5rem solid rgb(0, 0, 0);
+}
+
+section h3{
+background:rgb(11, 12, 65);
+margin: 0;
+margin-top: 3rem;
+}
+
+section p{ 
+margin:0;
+margin-bottom: 3rem;
+}
+
+img{
+margin: 0 auto;
+display: block;
+max-width: 100%;
+width: 100%;
+}
+
+footer{
+    color:rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+    padding: 2rem;
+}
