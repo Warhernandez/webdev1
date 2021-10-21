@@ -1,0 +1,34 @@
+.kuribo{
+    position: fixed;
+    right: 0;
+}
+.megaman{
+position: fixed;
+
+}
+.buu1{
+    position: absolute;
+    left:0;
+}
+.buu2{
+    position: absolute;
+    right:0;
+}
+h1{
+    text-align: center;
+ color:white;
+ font-family: 'Y Two K Bug', sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url("images/Background.png");
+    font-family: 'Happy Monkey', cursive;
+}
+p{
+    color: white;
+    padding: 2em;
+}
+footer{
+    font-family: 'Happy Monkey', cursive;
+    padding-top: 10rem;
+}
