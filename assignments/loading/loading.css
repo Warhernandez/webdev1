@@ -1,0 +1,49 @@
+.meter { 
+    height: 50px;
+    position: relative;
+    background: #8b8982;
+    overflow: hidden;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+.progress {
+    background-color: #000000;
+    animation: progressBar 20s cubic-bezier(.02,1.56,.91,-0.88) infinite;
+    animation-fill-mode:both; 
+
+}
+
+body{
+    margin-top: 25em;
+    place-items: center;
+    margin: 0;
+
+}
+.text::before {
+    content: "";
+    color: rgb(0, 0, 0);
+    animation: swap-text 20s infinite;
+    font-size: em;
+    place-items: center;
+    display: grid;
+
+  }
+  
+  @keyframes swap-text {
+    0% {content: "Loading...";}
+    40% {content: "Wait hold up I forgot my phone.";}
+    70% {content: "I swear I just had it";}
+    95% {content: "OH found it sorry about that";}
+    100% {content: "Done :D";}
+  }
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
