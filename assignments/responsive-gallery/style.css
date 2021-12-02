@@ -51,3 +51,24 @@
 img {
   display: block;
 }
+
+body
+{
+padding-left: 50px ;
+padding-right: 50px ;
+}
+h1{
+  font-family: "Megaten 20xx";
+  font-size: 20px;
+}
+nav{
+  font-family: "Megaten 20XX";
+  font-size: 16px;
+position: relative;
+left: 600px;
+top: -50px;
+gap: 10px;
+
+}
+@import url(//db.onlinewebfonts.com/c/677ec9b580b3863bf9b73ae5dc65f8c8?family=Megaten+20XX);
+@font-face {font-family: "Megaten 20XX"; src: url("//db.onlinewebfonts.com/t/677ec9b580b3863bf9b73ae5dc65f8c8.eot"); src: url("//db.onlinewebfonts.com/t/677ec9b580b3863bf9b73ae5dc65f8c8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/677ec9b580b3863bf9b73ae5dc65f8c8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/677ec9b580b3863bf9b73ae5dc65f8c8.woff") format("woff"), url("//db.onlinewebfonts.com/t/677ec9b580b3863bf9b73ae5dc65f8c8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/677ec9b580b3863bf9b73ae5dc65f8c8.svg#Megaten 20XX") format("svg"); }
