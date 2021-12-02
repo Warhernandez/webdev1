@@ -42,6 +42,7 @@
   bottom: 0;
   left: 0;
   opacity: 0;
+  font-family: "Megaten 20XX";
   
   display: grid;
   place-items: center;
@@ -56,6 +57,7 @@ body
 {
 padding-left: 50px ;
 padding-right: 50px ;
+background-color: #ade8f4;
 }
 h1{
   font-family: "Megaten 20xx";
@@ -64,10 +66,8 @@ h1{
 nav{
   font-family: "Megaten 20XX";
   font-size: 16px;
-position: relative;
-left: 600px;
-top: -50px;
-gap: 10px;
+
+  float: right;
 
 }
 @import url(//db.onlinewebfonts.com/c/677ec9b580b3863bf9b73ae5dc65f8c8?family=Megaten+20XX);
