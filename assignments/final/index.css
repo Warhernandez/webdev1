@@ -1,0 +1,77 @@
+@font-face {
+    font-family: MyFirstFont;
+    src: url(media/Typodermic\ -\ ConthraxSb-Regular.otf);
+  }
+  
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 5%;
+background-color: #023E8A;
+   color: white;
+   text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: myFirstFont;
+}
+body{
+    background-color:  #262626;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.hamburger {
+  display: block;
+  width: max-content;
+  margin: 2em;
+}
+
+.patty {
+  width: 3rem;
+  height: .325rem;
+  background: black;
+  margin: .5em 0;
+}
+
+.slide-out-menu {
+  background: lightgray;
+  height: 100vh;
+  width: 100%;
+  max-width: 300px;
+  
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  
+  transition: all .5s;
+}
+
+.slide {
+  transform: translateX(0);
+}
+
+.slide-out-menu a {
+  text-decoration: none;
+  flex-grow: 1;
+  display: grid; 
+  place-items: center;
+}
+
+.slide-out-menu a:hover {
+  background: #333;
+  color: white;
+}
