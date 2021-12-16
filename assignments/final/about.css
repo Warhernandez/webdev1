@@ -19,7 +19,9 @@ background-color: #023E8A;
    text-align: center;
 }
 
-
+a{
+  color:white
+}
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr;
