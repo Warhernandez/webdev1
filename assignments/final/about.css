@@ -3,6 +3,12 @@
     src: url(media/Typodermic\ -\ ConthraxSb-Regular.otf);
   }
   
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  
+  }
 .footer {
    position: fixed;
    left: 0;
@@ -12,15 +18,65 @@ background-color: #023E8A;
    color: white;
    text-align: center;
 }
-h1{
-    text-align: center;
-    color: white;
-    font-family: myFirstFont;
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5em;
+padding: 50px;
+  margin: 0 auto;
+
+}
+
+.container img{
+margin: 0 auto;
+}
+.container h2{
+  width: 100%;
+}
+.container p{
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.header{
+  color: white;
+  font-family: myFirstFont;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2{
+  font-family: myFirstFont;
+  color: white;
+}
+img{
+  display: flex;
+  justify-content: flex-end;
+}
+
+p{
+  font-family: 'Bakbak One', cursive;
+  color: white;
 }
 body{
     background-color:  #262626;
+
 }
 * {margin: 0; padding: 0; box-sizing: border-box;}
+
+
+
+
+
+
+
 
 .hamburger {
   display: block;

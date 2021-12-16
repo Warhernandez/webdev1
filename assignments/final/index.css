@@ -12,11 +12,19 @@
 background-color: #023E8A;
    color: white;
    text-align: center;
+   font-family: myFirstFont;
+   font-size: 15px;
 }
 h1{
     text-align: center;
     color: white;
     font-family: myFirstFont;
+    
+}
+h2{
+  font-family: MyFirstFont;
+  color:white;
+  text-align: center;
 }
 body{
     background-color:  #262626;
@@ -25,9 +33,15 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
   }
 
-
+  @media (max-width: 700px) {
+    img {
+    width: 50%;
+    height: 50%
+    }
+  }
 .hamburger {
   display: block;
   width: max-content;
@@ -75,3 +89,4 @@ img {
   background: #333;
   color: white;
 }
+  
